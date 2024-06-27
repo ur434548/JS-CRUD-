@@ -1,0 +1,139 @@
+#container {
+  box-shadow: 2px 2px 12px 1px;
+  height: 56rem;
+  margin: 3px;
+  border-radius: 12px;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  font-family: montserrat;
+  margin-left: 18px;
+  align-items: center;
+}
+#register-button {
+  padding: 6px;
+  margin-right: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  width: 64px;
+  font-weight: 400;
+  cursor: pointer;
+  background: rgb(230, 227, 227);
+}
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 12px;
+}
+#input-box {
+  padding: 6px;
+  border-radius: 12px;
+  border: 1px solid lightgrey;
+  width: 300px;
+  margin-right: 3px;
+}
+
+#clear-button {
+  padding: 6px;
+  font-family: montserrat;
+  border-radius: 12px;
+  border: none;
+  width: 60px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  background: rgb(230, 227, 227);
+}
+
+#t-content {
+  border: 1px solid gainsboro;
+  width: 100%;
+  margin-top: 10px;
+}
+#t-head {
+  background-color: aliceblue;
+  color: rgb(111, 107, 107);
+  font-size: 22px;
+}
+#t-body {
+  font-size: 22px;
+}
+/* modals */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  width: 50%;
+  margin: 5px  250px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+h1{
+  text-align: center;
+}
+#btn{
+  padding: 6px;
+  margin-top: 20px;
+  margin-left: 42rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 13px;
+  width:max-content;
+  font-weight: 400;
+  cursor: pointer;
+}
+#modal{
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0, 0, 0, .5);
+
+}
+#modal-content{
+  background-color: #fefefe;
+  width: 50%;
+  height: 35%;
+  margin-left: 600px;
+  margin-top:130px ;
+  box-shadow: -1px 0px 8px 4px rgb(255, 255, 255);
+}
+/* view page */
+#viewpage{
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0, 0, 0, .5);
+}
+/* view content */
+#view-content{
+  background-color: #fefefe;
+  width: 50%;
+  height: 35%;
+  margin-left: 600px;
+  margin-top:130px ;
+  box-shadow: -1px 0px 8px 4px rgb(255, 255, 255);
+}
+#view-content span{
+  background-color: aliceblue;
+  color: rgb(111, 107, 107);
+  font-size: 22px;
+  width: max-content;
+}
